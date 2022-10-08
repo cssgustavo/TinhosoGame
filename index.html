@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" href="./css/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<title>Tinhoso Game - Sprint 4</title>
+</head>
+
+<body>
+
+	<div class="container-fluid containerCss bg-image">
+
+		<div class="row rowCss d-flex align-items-center justify-content-center text-center">
+			
+			<div class="col-12 col-md-5">
+				<p class="statusJogo-p" id="status">BATA EM SEU OPONENTE!</p>
+				<p class="statusReinicie-p my-1" id="statusReinicie"></p>
+			</div>
+
+			<div class="col-12 col-md-12">
+				<canvas id="tinhosoCanvas" width="800" height="400"></canvas>
+			</div>
+
+			<div class="col-12 col-md-2 nameP">
+				<h2 class="player-h2">Tinhoso: <span id="vidaFinal1"></span></h2>
+			</div>
+			
+			<div class="col-12 col-md-2 nameP">
+				<h2 class="player-h2">Ryubô: <span id="vidaFinal2"></span></h2>
+			</div>
+
+
+
+		</div>
+	</div>
+
+
+
+	<script src="./js/quadradosTinhoso.js"></script>
+	<script src="./js/scriptTinhoso.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerCss {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-image {
+    background-image: url(../images/bg.jpg);
+}
+
+#tinhosoCanvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-image: url(../images/bgcvn.jpg);
+    margin: 20px auto;
+}
+
+.statusReinicie-p {
+    font-size: 20px;
+    margin: auto;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(0, 88, 22);
+}
+
+
+.rowCss {
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.danoFinal {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.statusJogo-p {
+    font-size: 20px;
+    margin: auto;
+    color: white;
+    font-weight: 700;
+    /* border: 1px solid rgb(255, 255, 255); */
+    background-color: #000;
+}
+
+.player-h2 {
+    font-size: 30px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 15px;
+}
+
+.nameP {
+    margin: 0px 120px;
+}
